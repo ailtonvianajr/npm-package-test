@@ -1,0 +1,26 @@
+{
+  "name": "npm-package-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node example/example.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ailtonvianajr/npm-package-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ailtonvianajr/npm-package-test/issues"
+  },
+  "homepage": "https://github.com/ailtonvianajr/npm-package-test#readme",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
+}
